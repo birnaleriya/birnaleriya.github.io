@@ -1,113 +1,100 @@
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-  background-color: #444;
-  color: white;
-  padding: 10px;
-  text-align: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
 }
 
 header h1 {
-  margin: 0;
+    font-size: 2.5em;
+    margin: 0;
 }
 
-header nav {
-  text-align: center;
-  padding: 10px;
+header p {
+    font-size: 1.2em;
+    margin: 0;
 }
 
-header nav ul {
-  list-style-type: none;
-  padding: 0;
+header img {
+    border-radius: 50%;
+    margin-right: 20px;
 }
 
-header nav ul li {
-  display: inline;
-  margin: 0 5px;
+nav ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-header nav ul li a {
-  color: white;
-  text-decoration: none;
+nav ul li {
+    display: inline;
+    margin-right: 10px;
 }
 
-header nav ul li a:hover {
-  color: #ccc;
+nav ul li a {
+    text-decoration: none;
+    color: #007bff;
 }
 
-hr {
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+section {
+    margin: 20px;
 }
 
-main {
-  padding: 20px;
+section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
 
-main h2 {
-  margin: 0 0 10px;
+table {
+    border-collapse: collapse;
+    width: 100%;
 }
 
-main table {
-  border-collapse: collapse;
-  width: 100%;
+th,
+td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
 }
 
-main th,
-main td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
+th {
+    background-color: #dddddd;
 }
 
-main th {
-  background-color: #444;
-  color: white;
+article {
+    margin-bottom: 20px;
 }
 
-main article {
-  margin-bottom: 20px;
+article h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
 }
 
-main article h3 {
-  margin: 0 0 10px;
+article ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-main article ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-main article li {
-  margin-bottom: 5px;
-}
-
-aside {
-  float: right;
-  width: 30%;
-  padding: 20px;
-  background-color: #ddd;
+article ul li {
+    margin-bottom: 5px;
 }
 
 footer {
-  background-color: #444;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  margin-top: 20px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
 }
 
 footer a {
-  color: white;
-  text-decoration: none;
-  margin: 0 5px;
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 10px;
 }
 
 footer a:hover {
-  color: #ccc;
+    text-decoration: underline;
 }
